@@ -1,0 +1,19 @@
+= Token Contract
+chevdor <chevdor@gmail.com>
+v0.1.0, 2016-05-04
+:toc:
+:source-highlighter: pygments 				// coderay, highlightjs, prettify, and pygments.
+:doctype: Manpage
+
+
+[Description]
+== Description
+This is an example for a token contract.
+You can set the initial supply, name and a few other properties of the token when you deploy it.
+
+Accounts having token can transfer them to other accounts.
+There is a single owner.
+
+The owner can set the price, change owner, mint additional tokens.
+Users can buy/sell token against ETH.
+
